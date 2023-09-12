@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css"/>
+   
+    <title>Johnalex- Element</title>
+</head>
+<body>
+    <div class="page-container">
+        <h2 style="text-align: center;" class="page-title">Johnalex Card Details</h2>
+        <!-- Profile Card -->
+        <div class="card">
+            <h2 style="color: rgb(75, 73, 73);" class="card-head-2">Slack Details</h2>
+            <img src="./images/img2.1.jpg" alt="Johnbeulah-Adegbola" style="width:100%" data-testid="slackDisplayImage">
+            <h1 class="username" data-testid="slackUserName">Johnbeulah Adegbola</h1>
+            <p class="title" data-testid="myTrack">Frontend</p>
+            <p>HNGx</p>
+        </div>
+        <!-- GitHub Herov1 -->
+        <!-- <div class="gitcard-hero">
+            <div class="hero-text">
+              <h1 style="font-size:50px"><span><img src="./images/ico/github-top.png" class="git-ico"/></span>GitHub Profile</h1>
+              <p>visit my GitHub URL</p>
+              <h3><a href="https://github.com/Johnalexx" class="git-link">Johnalexx (GitHub)<span><img src="./images/ico/github-top.png" class="git-ico-sm"/></span></a></h3>
+              <a href="https://github.com/Johnalexx" class="git-link"><button type="button" class="block-btn">Block Button</button></a>
+            </div>
+          </div> -->
+          <!-- Dotted Stuff -->
+          <div class="container">
+            <div class="top">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          
+            <div class="content">
+                <!-- GitHub Details -->
+                <div class="hero-text">
+                    <h1 style="font-size:50px"><span><img src="./images/ico/github-top.png" class="git-ico"/></span>GitHub Profile</h1>
+                    <p>visit my GitHub URL</p>
+                    <h3><a href="https://github.com/Johnalexx" data-testid="githubURL" class="git-link">Johnalexx (GitHub)<span><img src="./images/ico/github-top.png" class="git-ico-sm"/></span></a></h3>
+                    <a href="https://github.com/Johnalexx" data-testid="githubURL" class="git-link"><button type="button" class="block-btn">View Project Repo.</button></a>
+                  </div>
+                  
+                    <!-- Date and Time Update -->
+                  <div class="hero-text">
+                    <h1 style="font-size:50px">Time and Date</h1>
+                    <h2>
+                      Current Day: <span id="day-of-week" data-testid="currentDayOfTheWeek"></span> <br/>
+                      Time(in Millisecond): <span id="milli-sec" data-testid="currentUTCTime"></span>  <br/>
+                      
+                    </h2>
+                  </div>
+            </div>
+          </div>
+    </div>
+</body> 
+<!-- Script -->
+<script src="./script.js"></script>
+</html>

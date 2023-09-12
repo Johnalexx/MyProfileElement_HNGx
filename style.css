@@ -1,0 +1,104 @@
+body{
+    background-image: url(./images/bg/wallhaven-521.png);
+    background-color: aliceblue;
+}
+.card-head-2{
+    font-family: fantasy;
+}
+.page-title{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+/* Card Styling */
+.card {
+    padding: 4px;
+    background-color: rgb(236, 226, 226);
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.datecard-hero{
+    background-color: blue ;
+}
+.gitcard-hero, .datecard-hero{
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(37, 29, 29);
+    float: right;
+    text-align: center;
+    height: 50%;
+    width: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.git-ico{
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+}
+.git-ico-sm{
+    width: 15px;
+}
+.block-btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #fff4f4;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.block-btn:hover{
+    background-color: #3d3a3a;
+    color: white;
+}
+.git-link{
+    text-decoration: none;
+    color: rgb(238, 231, 231);
+}
+/* Trial */
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.container {
+    float: right;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(37, 29, 29);
+    height: 50%;
+    width: 75%;
+    background-position: center;
+    text-align: center;
+    /* Edot from */
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.top {
+    padding: 10px;
+    background: #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.content {
+    padding: 10px;
+}
+/* Date */
+#day-of-week, #milli-sec {
+    color: white;
+}
